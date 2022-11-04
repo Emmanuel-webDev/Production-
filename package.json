@@ -1,0 +1,21 @@
+{
+  "name": "learning-nodejs",
+  "version": "1.0.0",
+  "description": "Server-side development",
+  "main": "app.js",
+  "engine":{
+  "node":"18.x"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emmanuel Onuorah",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
